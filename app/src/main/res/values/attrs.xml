@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="group_names" format="integer">
+        <enum name="Buttons" value="0"></enum>
+
+    </attr>
+</resources>
