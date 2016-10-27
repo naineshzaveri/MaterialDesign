@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     ArrayList<GroupModel> listDataHeader;
     private String[] groups = {"ButtonsActivity", "Bottom Sheets", "Cards", "Chips", "Dialogs", "Menus","Progress",
-            "RatingBar","Selection controls", "SnackBar"};
+            "RatingBar","Selection controls", "SnackBar","Co-ordinate layout"};
 
     private String[][] children = {
             {"Raised Button", "Flat Button", "Floating Action Button"},// buttons
@@ -48,7 +48,10 @@ public class MainActivity extends AppCompatActivity {
                     "Checkbox", "Radio Button", "Switch" // selection controls
             },
             {
-
+                    // Snackbar
+            },
+            {
+                    // co-ordinate layout
             }
 
 
@@ -148,6 +151,10 @@ public class MainActivity extends AppCompatActivity {
 
                 intent = new Intent(MainActivity.this, SnackBarActivity.class);
                 break;
+            case HeaderConstants.GROUPHEADERS.CO_ORDINATE_LAYOUT:
+                intent = new Intent(MainActivity.this, CoOrdinateLayoutActivity.class);
+                break;
+
         }
         if (intent != null)
             startActivity(intent);

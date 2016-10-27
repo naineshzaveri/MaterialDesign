@@ -17,6 +17,7 @@ public class HeaderConstants {
         public static final int RATING = 7;
         public static final int SELECTION_CONTROL = 8;
         public static final int SNACKBAR = 9;
+        public static final int CO_ORDINATE_LAYOUT = 10;
     }
 
 }

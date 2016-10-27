@@ -24,6 +24,7 @@
         <activity android:name=".activity.RatingBarActivity"/>
         <activity android:name=".activity.SelectionControlActivity"/>
         <activity android:name=".activity.SnackBarActivity"/>
+        <activity android:name=".activity.CoOrdinateLayoutActivity"/>
 
     </application>
 
